@@ -1,0 +1,1119 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Component/s,Due Date,Votes,Description,Environment,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (End Date),Custom field (Epic Link),Custom field (Error Type),Custom field (Expected Result),Custom field (Found by),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Solution),Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (TestLink case),Custom field (Time Category),Custom field (Type of engagement),Custom field (URL),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment,Comment,Comment
+Add Recipe: Without any space inputs100 characters in the 'Title' and 'Publisher' fields when uploading a recipe and previewing is not displayed properly,QATC-815107,3494504,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,18/Aug/23 8:40 PM,18/Aug/23 8:46 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on Add recipe
+ # Fill the title field without space 100 characters
+ # Fill the Publisher field without space 100 characters
+ # Fill out the rest of the required field
+ # Click on Upload button
+ # Observed the result
+
+*Actual Result:* Without any space inputs100 characters in the 'Title' and 'Publisher' fields when uploading a recipe and previewing is not displayed properly
+
+*Expected Result:* Without any space when inputs 100 characters in the title and publisher field it should be displayed properly with all information header and search result field previewing time.
+
+*Additional information:* When searching this uploaded recipe and open it's not displayed correctly","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"18/Aug/23 8:40 PM;m.foysal;title and publisher search.mp4;https://jira.a1qa.com/secure/attachment/2397603/title+and+publisher+search.mp4","18/Aug/23 8:38 PM;m.foysal;title and publisher.mp4;https://jira.a1qa.com/secure/attachment/2397604/title+and+publisher.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiutz:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"18/Aug/23 8:46 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add recipe: Without any space input 200 characters in the ingredients field when uploading a recipe and previewing is not displayed properly,QATC-815104,3494492,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,18/Aug/23 8:25 PM,18/Aug/23 8:45 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on Add Recipe
+ # Fill out the add recipe data all required filed
+ # Fille the first and last ingredients field with 200 character
+ # Clicked on the upload button
+ # Observed the Result
+
+*Actual Result:* Without any space input 200 characters in the ingredients field when uploading a recipe and previewing is not displayed properly
+
+*Expected Result:* With out any space when 200 characters are inputted it should be displayed correctly with all window information with header and search bar","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"18/Aug/23 8:25 PM;m.foysal;with out  any space add recipe.mp4;https://jira.a1qa.com/secure/attachment/2397593/with+out++any+space+add+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiurb:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"18/Aug/23 8:45 PM;m.foysal;*Additional Information:* This issue is the same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: The cross button is not displayed when the window  resolution size is '782*694 to '844*702',QATC-815018,3494034,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,17/Aug/23 8:54 PM,17/Aug/23 8:54 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on Add Recipe 
+ # Minimized the window size 782*694
+ # Then Maximized the window size to 844*702
+ # Observed the Add Recipe forms
+ # There is no cross button displayed
+
+*Actual Result:* The cross button is not displayed when the window  resolution size is '782*694 to '844*702'
+
+*Expected Result:* The cross button should be displayed when the window resolution size is '782*694 to '844*702'
+
+*Additional Information:* When the resolution size is '782*694' the Recipe data field is hidden by the side panel","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"17/Aug/23 8:53 PM;m.foysal;cross button is not displayed.mp4;https://jira.a1qa.com/secure/attachment/2397269/cross+button+is+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idis2f:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Searching: Search with an empty field and then uploading a recipe still searching is running,QATC-815011,3494011,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,17/Aug/23 8:30 PM,21/Aug/23 12:38 PM,16/Oct/23 6:46 PM,21/Aug/23 12:38 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on search button
+ # Then click on add recipe
+ # Fill out the required field
+ # Click on upload
+ # Observed the recipe
+
+*Actual Result:* Searching with an empty field and then uploading a recipe still searching is running
+
+*Expected Result:* Searching should be stopped when a recipe uploaded
+
+ ","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"17/Aug/23 8:30 PM;m.foysal;Still Search Running.mp4;https://jira.a1qa.com/secure/attachment/2397259/Still+Search+Running.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idirxb:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"17/Aug/23 8:31 PM;m.foysal;*Additional Information:*  This issue is same in
+
+*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ;;;",,
+Add Recipe: Ingredients: Ingredients field accept more than 200 letters when uploading a recipe,QATC-814864,3493580,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,17/Aug/23 1:40 AM,17/Aug/23 1:42 AM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Fill out all the required recipe data field
+ # Input more than 200 letters in the ingredients field
+ # Observed the result
+
+*Actual Result:*  Ingredients field accept more than 200 letters when uploading a recipe
+
+*Expected Result:* Ingredients field only accept 5 to 200 characters when upload a recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"17/Aug/23 1:40 AM;m.foysal;ingredients accept more than 200 character.mp4;https://jira.a1qa.com/secure/attachment/2396869/ingredients+accept+more+than+200+character.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idip9z:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"17/Aug/23 1:42 AM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Bookmark: Clicked on the bookmark and then press the tab button it's displayed all the bookmarked recipe,QATC-814860,3493574,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,17/Aug/23 1:19 AM,17/Aug/23 2:07 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Bookmarked 
+ # Then press the TAB key until finished the bookmarked recipe
+ # Observed the recipe
+
+*Actual Result:* Clicked on the bookmark and then press the tab button it's displayed all the bookmarked recipe
+
+*Expected Result:* Bookmarked recipe should be displayed on the first page 12 then there should be pagination for the rest of the recipe. Only 25 recipes can be bookmarked
+
+*Additional Information:* When reached the more than 20 recipes the main window is disappeared","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"17/Aug/23 1:19 AM;m.foysal;bookmark displayd more than 25 recipe.mp4;https://jira.a1qa.com/secure/attachment/2396863/bookmark+displayd+more+than+25+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idip8n:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"17/Aug/23 2:07 PM;m.foysal;*Additional Information:* This issue is the same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: Searching result recipe doesn't display the preview image,QATC-814858,3493569,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,17/Aug/23 12:58 AM,21/Aug/23 12:39 PM,17/Nov/23 9:52 PM,21/Aug/23 12:39 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Search for a recipe by title name
+ # Observed the search result
+ # The preview image is not displayed
+
+*Actual Result:* Searching result recipe doesn't display the preview image
+
+*Expected Result:* The search result should be displayed  the recipe preview image which has a valid image URL
+
+*Additional Information:* This issue is the same for the Bookmarked recipe
+
+ ","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"17/Aug/23 12:58 AM;m.foysal;image not preview.mp4;https://jira.a1qa.com/secure/attachment/2396859/image+not+preview.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idip7j:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Bookmark: Bookmark recipe can't be unbookmarked when clicking on the option it bookmarks that recipe multiple time,QATC-814857,3493568,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,17/Aug/23 12:46 AM,18/Aug/23 12:24 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill out all required fields with valid data
+ # Click on upload
+ # Click on bookmark options
+ # Observed the result
+
+*Actual Result:* Bookmark recipe can't be unbookmarked when clicking on the option it bookmarks that recipe multiple time
+
+*Expected Result:* The bookmarked recipe should be unbookmarked when clicked on the bookmark option.
+
+*Additional Information:* When it's bookmarked the recipe the bookmarked button color does not change
+
+ ","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"17/Aug/23 12:46 AM;m.foysal;bookmarked recipe can't unbookmarked.mp4;https://jira.a1qa.com/secure/attachment/2396858/bookmarked+recipe+can%27t+unbookmarked.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idip7b:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"18/Aug/23 12:24 PM;m.foysal;*Summary:* Bookmark recipe doesn't unbookmarked when clicking on the option it bookmarks that recipe multiple time;;;",,
+"Bookmark: Minimized window opens a  bookmarked recipe is displayed 'we could not find the recipe"" in the whole window",QATC-814854,3493536,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 10:43 PM,21/Aug/23 12:44 PM,17/Oct/23 3:08 PM,21/Aug/23 12:44 PM,1.0,Forkify,,0,"*Steps to reproduce:* 
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Click on Bookmark
+ # Click on a bookmark recipe
+ # Observed the Result
+
+{*}Actual result{*}: Minimized window opens a  bookmarked recipe is displayed 'we could not find the recipe"" in the whole window
+
+*Expected Result:* The bookmarked recipe should be displayed with correct information
+
+*Additional Information:* This issue happens when opening a bookmarked recipe in the maximized window and then minimizing the window","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"16/Aug/23 10:43 PM;m.foysal;bokkmarked message displayed in the whole window.mp4;https://jira.a1qa.com/secure/attachment/2396848/bokkmarked+message+displayed+in+the+whole+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idip07:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,
+Bookmark: The bookmarked recipe is not displayed in the main window when clicking on it,QATC-814853,3493535,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 10:32 PM,16/Aug/23 10:32 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:* 
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on bookmarked 
+ # Then Click on a bookmark recipe
+ # Observed the result
+
+*Actual Result:* The bookmarked recipe is not displayed in the main window when clicking on it
+
+*Expected Result:* The bookmarked recipe should be displayed when clicked on it","*MacOS:* Ventura
+*Browser:* Safari, Version 16.5",,,,,,,,Leads and Reporter only,"16/Aug/23 10:32 PM;m.foysal;bokkmarked recipe is not  displayed.mp4;https://jira.a1qa.com/secure/attachment/2396847/bokkmarked+recipe+is+not++displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiozz:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,
+Add Recipe: There is no red asterisk icon top of the right on the required field,QATC-814846,3493476,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 8:40 PM,21/Aug/23 12:27 PM,17/Nov/23 9:52 PM,21/Aug/23 12:27 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Observed the field name
+ # There is no required asterisks icon
+
+*Actual Result:* There is no red asterisk icon top of the right on the required field
+
+*Expected Result:* There should be a red asterisk icon top of the right on the required field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 8:40 PM;m.foysal;no red icon.jpg;https://jira.a1qa.com/secure/attachment/2396798/no+red+icon.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idiomv:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"17/Aug/23 1:08 AM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: The  search result  recipe is not displayed in the main window when traversing bookmarked recipe by pressing TAB ,QATC-814843,3493438,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 7:42 PM,16/Aug/23 7:42 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Search any recipe
+ # Clicked on bookmarked 
+ # Press Tab 15-20 times
+ # Open a search recipe
+ # Observed the result
+
+*Actual Result:* The search result recipe is not displayed in the main window when traversing bookmarked recipe by pressing TAB 
+
+*Expected Result:* The recipe Should be displayed in the main window properly
+
+*Additional Information:* The is not displayed when traversing and open a search recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 7:41 PM;m.foysal;Page is broken.mp4;https://jira.a1qa.com/secure/attachment/2396777/Page+is+broken.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idioen:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Bookmark: The bookmarked recipe is not displayed in the main window when Tab to access items and press enter,QATC-814836,3493379,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 6:25 PM,21/Aug/23 12:43 PM,17/Nov/23 9:52 PM,21/Aug/23 12:43 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on Bookmarked
+ # Press the TAB button to traverse the bookmarked recipe
+ # Click on enter button
+ # Observed the window
+
+*Actual Result:* The bookmarked recipe is not displayed in the main window when Tab to access items and press enter
+
+*Expected Result:* The bookmarked recipe should be displayed in the main window","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 6:25 PM;m.foysal;Bookmark is not dispayed.mp4;https://jira.a1qa.com/secure/attachment/2396715/Bookmark+is+not+dispayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idio1j:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"17/Aug/23 1:08 AM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Bookmark: Clicked on  the bookmark and then  pressing on the tab button it's displayed all the uploaded recipe,QATC-814835,3493371,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 6:18 PM,17/Aug/23 2:09 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on the bookmark
+ # Then Press on the TAB key
+ # Observed the result
+
+*Actual Result:* Clicked on  the bookmark and then  press the tab button it's displayed all the uploaded recipe 
+
+*Expected Result:* Bookmarked options should be  displayed in only 25 recipe
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"16/Aug/23 6:18 PM;m.foysal;TAB goes all recipe.mp4;https://jira.a1qa.com/secure/attachment/2396713/TAB+goes+all+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idinzr:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"17/Aug/23 2:09 PM;m.foysal;*Additional Information:* This issue is the same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: Tab is not working in the main window,QATC-814834,3493360,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 6:08 PM,21/Aug/23 12:27 PM,17/Nov/23 9:52 PM,21/Aug/23 12:27 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Press on Tab and observed the result
+ # Not switching the options
+
+*Actual Result:* Tab is not working in the main window
+
+*Expected Result:*  The tab should be working on the main window","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 6:07 PM;m.foysal;Tab is not working in the main windw.mp4;https://jira.a1qa.com/secure/attachment/2396709/Tab+is+not+working+in+the+main+windw.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idinxb:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 11:23 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: Reloading the page it's displayed the preview recipe,QATC-814831,3493347,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 5:58 PM,18/Aug/23 12:27 PM,14/Oct/23 1:04 AM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open a recipe from the bookmark
+ # Reload the page
+ # Observed the result
+
+*Actual Result:* Reloading the page it's displayed the preview recipe
+
+*Expected Result:* Reloading the page it's displayed empty window
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 5:58 PM;m.foysal;reloading the page not cleared the window.mp4;https://jira.a1qa.com/secure/attachment/2396703/reloading+the+page+not+cleared+the+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idinun:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"18/Aug/23 12:27 PM;m.foysal;*Expected Result:* Reloading the page it should be displayed an empty window;;;",,
+Add Recipe: The time field  is displayed 'Prep time' instead of 'Preparation time',QATC-814830,3493341,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 5:51 PM,21/Aug/23 12:26 PM,17/Nov/23 9:52 PM,21/Aug/23 12:26 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Observed the time field name
+
+*Actual Result:* The time field  is displayed 'Prep time' instead of 'Preparation time'
+
+*Expected Result:* The time field should be displayed Preparation time","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 5:51 PM;m.foysal;Preparetion time.jpg;https://jira.a1qa.com/secure/attachment/2396700/Preparetion+time.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idintb:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Preview Recipe: Search field overlaps by the preview window when time is displayed more than 25 digits number,QATC-814826,3493293,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 4:18 PM,21/Aug/23 12:42 PM,17/Nov/23 9:52 PM,21/Aug/23 12:42 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open a recipe by searching 
+ # Observed the previewed recipe 
+ # Observed the search filed
+
+*Actual Result:* Search field overlaps by the preview window when time is displayed more than 25 digits number
+
+*Expected Result:* The search field should not be overlapped by the preview window when time is displayed more than 10h
+
+*Additional Information:*
+ # When minutes are displayed as more than 25 characters Pagination is displayed in a separate line
+ # Bookmark is not displayed correctly when 25 digit Minuit is displayed
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 4:18 PM;m.foysal;page break.mp4;https://jira.a1qa.com/secure/attachment/2396623/page+break.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idiniv:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Add Recipe: Input 18 characters in the prep time field it convert the last 2 digits to zero when previewing,QATC-814819,3493231,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 3:19 PM,16/Aug/23 3:19 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on add recipe 
+ # Fill out all required field except Prep time
+ # Input 18 character number in this field
+ # Click on the upload button
+ # Observed the result
+
+*Actual Result:*  Input 18 characters in the prep time field it convert the last 2 digits to zero when previewing
+
+*Expected Result:* Prep time only displayed Hours, Minutes,  and Seconds. Maximum 10h allowed.
+
+*Additional Information:* This issue is the same for the Servings field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 3:19 PM;m.foysal;18 digit prep time.mp4;https://jira.a1qa.com/secure/attachment/2396573/18+digit+prep+time.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idin5j:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Add Recipe: Input 25 characters in the prep time field it's displayed an 'E power' number when previewing the recipe,QATC-814818,3493220,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 3:11 PM,16/Aug/23 3:11 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill out all the required field except Prep time
+ # Input 25 numbers on this filed
+ # Click on the upload button
+ # Observed the result
+
+*Actual Result:* Input 25 characters in the prep time field it's displayed an 'E power' number when previewing the recipe
+
+*Expected Result:* The prep time should be displayed only Hour, Minutes, and Seconds. A maximum of 10h will be allowed.
+
+*Additional Information:*
+ # This issue is the same for the Servings field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 3:11 PM;m.foysal;prep time is displayed wrong.jpg;https://jira.a1qa.com/secure/attachment/2396570/prep+time+is+displayed+wrong.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idin33:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Add Recipe: In the maximized window uploaded recipe is not displayed when minimized the window,QATC-814815,3493209,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 2:54 PM,21/Aug/23 12:42 PM,17/Nov/23 9:52 PM,21/Aug/23 12:42 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on add recipe
+ # Fill out the all required field
+ # Click on upload button
+ # Minimized the window 
+ # Observed the result
+
+*Actual Result:* In the maximized window uploaded recipe is not displayed when minimized the window
+
+*Expected Result:* The recipe should be displayed when minimized the window","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 2:54 PM;m.foysal;recipe is not displayed in the maximized window.mp4;https://jira.a1qa.com/secure/attachment/2396560/recipe+is+not+displayed+in+the+maximized+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idin13:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:20 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Bookmark: Minimized window opening a recipe  from Bookmark is overlapped on the preview recipe,QATC-814814,3493205,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 2:41 PM,16/Aug/23 2:41 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Open a bookmark recipe
+ # Observed the bookmark list 
+ # It overlaps on the previewed recipe
+
+*Actual Result:* Minimized window opening a recipe  from Bookmark is overlapped on the preview recipe
+
+*Expected Result:* In the minimized window when opening a recipe form bookmark the bookmark list should not overlap  the recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 2:41 PM;m.foysal;Bookmark overlaps.mp4;https://jira.a1qa.com/secure/attachment/2396550/Bookmark+overlaps.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idin07:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Bookmark: Bookmark is displayed more than 25 recipes when a long publisher name ingredients in opened,QATC-814723,3493028,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 1:55 AM,16/Aug/23 1:55 AM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open a long publisher name recipe
+ # Minimized the window
+ # Click on the bookmark
+ # Scroll down the bookmark
+ # Observed the bookmark recipe
+
+*Actual Result:* Bookmark is displayed more than 25 recipes when a long publisher name ingredients in opened
+
+*Expected Result:* Bookmark should be displayed only 25 recipe","{*}OS{*}: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 1:54 AM;m.foysal;bookmark is displayed more than 25 recipe.mp4;https://jira.a1qa.com/secure/attachment/2396384/bookmark+is+displayed+more+than+25+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idilxr:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Search: Recipes that contain this ingredient do not appear when searched by ingredient,QATC-814718,3493021,Bug,To Be Reformulated,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 1:37 AM,22/Aug/23 7:15 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:* 
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Input an ingredients name into the search field
+ # Click on the search button
+ # Observed the result
+
+*Actual Result:* Recipes that contain this ingredient do not appear when searched by ingredient
+
+*Expected Result:* Recipes that contain this ingredient should be displayed in the search result field when searched by ingredients","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 1:37 AM;m.foysal;Searching by ingredients.mp4;https://jira.a1qa.com/secure/attachment/2396377/Searching+by+ingredients.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idilw7:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 11:18 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;","22/Aug/23 7:15 PM;m.foysal;*Summary:* Searching by ingredient name is not displayed the recipe ** ;;;",
+Preview Recipe: There are no options for sharing the  added recipe with other via social media platform,QATC-814705,3492998,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 12:46 AM,21/Aug/23 12:26 PM,17/Nov/23 9:52 PM,21/Aug/23 12:26 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open a recipe form bookmark
+ # Observed the preview recipe
+ # There are no share options with others
+
+*Actual Result:* There are no options for sharing the  added recipe with other via social media platform
+
+*Expected Result:* There should an option for share recipes with others","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 12:46 AM;m.foysal;No shareable options.mp4;https://jira.a1qa.com/secure/attachment/2396359/No+shareable+options.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilr3:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,"16/Aug/23 11:17 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: Add recipe menu has no tooltip when hovering over the cursor,QATC-814704,3492997,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,16/Aug/23 12:39 AM,16/Aug/23 11:17 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Hover over the cursor on the add recipe menu
+ # There is no tooltip displayed
+
+*Actual Result:* Add recipe menu has no tooltip when hovering over the cursor
+
+*Expected Result:* Add recipe menu should be a tooltip Click on to upload your favorite recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 12:39 AM;m.foysal;Add recip has no toltip.mp4;https://jira.a1qa.com/secure/attachment/2396358/Add+recip+has+no+toltip.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilqv:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,"16/Aug/23 11:17 PM;m.foysal;{*}Additional Information: T{*}his issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Preview Recipe: Prep time is displayed only minutes instead of 'Hour' 'Minutes' 'Second' when more than 60 minutes,QATC-814701,3492993,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,16/Aug/23 12:33 AM,21/Aug/23 12:41 PM,17/Nov/23 9:52 PM,21/Aug/23 12:41 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open a recipe by searching or from  the bookmark Menu
+ # Observed the preview recipe
+
+*Actual Result:* Prep time is displayed only minutes instead of 'Hour' 'Minutes' 'Second' when more than 60 minutes
+
+*Expected Result:* Prep time when more than 60 minutes it's should be displayed Hour, Minutes, Second","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 12:32 AM;m.foysal;Minutes more than 60.jpg;https://jira.a1qa.com/secure/attachment/2396353/Minutes+more+than+60.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idilpz:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 11:16 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Prep time can be set to less than 5 minutes,QATC-814692,3492962,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 11:17 PM,21/Aug/23 12:41 PM,17/Nov/23 9:52 PM,21/Aug/23 12:41 PM,1.0,Forkify,,0,"Steps to reproduce:
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on add recipe
+ # Fill the all required field except Prep time
+ # Set Prep time less than 5
+ # Observed the result
+
+Actual Result: Prep time can be set to less than 5 minutes
+
+Expected Result: Prep time can't be set less than 5 minutes","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 11:17 PM;m.foysal;Prep time less than 5 minutes.mp4;https://jira.a1qa.com/secure/attachment/2396339/Prep+time+less+than+5+minutes.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idilj3:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 12:54 AM;m.foysal;*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on add recipe
+ # Fill the all required field except Prep time
+ # Set Prep time less than 5
+ # Observed the result
+
+*Actual Result:* Prep time can be set to less than 5 minutes
+
+*Expected Result:* Prep time can't be set to less than 5 minutes;;;","16/Aug/23 11:15 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",
+Search: The search result field is displayed 'Search your favorite recipe :)' instead of empty,QATC-814690,3492959,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 11:11 PM,21/Aug/23 12:41 PM,17/Nov/23 9:52 PM,21/Aug/23 12:41 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Observed the window
+ # In the sear result field it's displayed 'Search your favorite recipe :)'
+
+*Actual Result:* The search result field is displayed 'Search your favorite recipe :)' instead of empty
+
+*Expected Result:* The sear result field should be displayed empty
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 11:10 PM;m.foysal;Search result field.jpg;https://jira.a1qa.com/secure/attachment/2396337/Search+result+field.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilif:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 11:15 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: There is no login system when entering the application  ,QATC-814688,3492951,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 11:06 PM,21/Aug/23 12:40 PM,17/Nov/23 9:52 PM,21/Aug/23 12:40 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Observed the result there is no required login system
+
+*Actual Result:* There is no login system when entering the application  
+
+*Expected Result:* There should be a login system for collecting information about the user also stored uploaded recipes. Users can access their recipes anywhere.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 11:06 PM;m.foysal;No login system.mp4;https://jira.a1qa.com/secure/attachment/2396333/No+login+system.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilgn:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,"16/Aug/23 11:14 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: There are no user profile options where the user can see all the information,QATC-814686,3492940,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 10:51 PM,21/Aug/23 12:40 PM,17/Nov/23 9:52 PM,21/Aug/23 12:40 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Observed the whole window
+ # There is no user profile options
+
+*Actual Result:* There are no user profile options where the user can see all the information
+
+*Expected Result:* There should be a user profile option where the user can see all the information about him/her.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 10:51 PM;m.foysal;userprofile options.mp4;https://jira.a1qa.com/secure/attachment/2396327/userprofile+options.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idile7:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,"16/Aug/23 11:14 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: There is no copyright information at the footer of the applications,QATC-814685,3492938,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 10:47 PM,16/Aug/23 11:13 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to ""[https://forkify.qa-academy.eu|https://forkify.qa-academy.eu/] ""
+ # Observed the window
+ # There is no copyright information
+
+{*}Actual Result{*}: There is no copyright information at the footer of the applications
+
+*Expected Result:*  There should be copyright information about the application","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 10:46 PM;m.foysal;There is no copyright informations.mp4;https://jira.a1qa.com/secure/attachment/2396326/There+is+no+copyright+informations.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idildr:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,"16/Aug/23 11:13 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: The logo fortify  is not linked on the home page,QATC-814684,3492935,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 10:40 PM,21/Aug/23 12:24 PM,17/Nov/23 9:52 PM,21/Aug/23 12:24 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on the Forkify logo
+ # Observed the result
+
+*Actual Result:* The logo fortify  is not linked on the home page
+
+*Expected Result:* The logo should be linked to the home page and clickable","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 10:40 PM;m.foysal;The logo is not click able.mp4;https://jira.a1qa.com/secure/attachment/2396324/The+logo+is+not+click+able.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idild3:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Forkify: The page is not responsive when minimizing the size of the window,QATC-814681,3492932,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 10:29 PM,21/Aug/23 12:40 PM,17/Nov/23 9:52 PM,21/Aug/23 12:40 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimizing the size of the window
+ # Observed the result
+ # The search result option got merged
+
+*Actual Result:* The page is not responsive when minimizing the size of the window
+
+*Expected Result:* The page should be responsive when minimizing and maximizing the size of the window","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 10:29 PM;m.foysal;responsive.mp4;https://jira.a1qa.com/secure/attachment/2396318/responsive.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilcf:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:13 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Forkify: The header is not fixed when scrolling the webpage down ,QATC-814680,3492930,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 10:18 PM,21/Aug/23 12:40 PM,17/Nov/23 9:52 PM,21/Aug/23 12:40 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Scrolling down the webpage
+ # Observed the result
+
+*Actual result:* The header is not fixed when scrolling the webpage down 
+
+*Expected result:* The header should be fixed when scrolling down the web page
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 10:17 PM;m.foysal;The header is not fixed.mp4;https://jira.a1qa.com/secure/attachment/2396316/The+header+is+not+fixed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idilbz:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:11 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: More than 100 English letters can be input into the search bar,QATC-814678,3492926,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 10:12 PM,16/Aug/23 11:11 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" https://forkify.qa-academy.eu/""
+ # Input more than 100 letters in the search field
+ # Click on the search button
+ # Observed the result
+
+*Actual Result:* More than 100 English letters can be input into the search bar
+
+*Expected Result:*  Only one to 100 English letters will be accepted in the search field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 10:12 PM;m.foysal;Search field accept more than 100 letters.mp4;https://jira.a1qa.com/secure/attachment/2396312/Search+field+accept+more+than+100+letters.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idilb3:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:11 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: The search bar is accept different languages when searching,QATC-814675,3492920,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 10:01 PM,21/Aug/23 12:40 PM,17/Nov/23 9:52 PM,21/Aug/23 12:40 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Input different languages in the search field
+ # Click on the Search button
+ # Observed the result
+
+{*}Actual Result{*}: The search bar is accept different languages when searching
+
+*Expected Result:* The search bar only accepts English language
+
+*Additional Information:*
+ # The search bar also accept Special character when searching
+ # The search bar also accept Number, positive and negative value","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 10:01 PM;m.foysal;search bar accept diffrent language.mp4;https://jira.a1qa.com/secure/attachment/2396304/search+bar+accept+diffrent+language.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idil9r:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:10 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: The Search bar is case-sensitive when searching by uppercase and lowercase,QATC-814666,3492895,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 9:37 PM,15/Aug/23 9:37 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Try to search by lowercase letter
+ # Try to search by Uppercase letter
+ # Observed the result
+
+*Actual Result:* The Search bar is case-sensitive when searching by uppercase and lowercase
+
+*Expected Result:*  The Search bar should not be case-sensitive when searching by uppercase and lowercase. It should be displayed all recipes when searching by uppercase or lowercase.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 9:36 PM;m.foysal;Search bar is case sencitive.mp4;https://jira.a1qa.com/secure/attachment/2396283/Search+bar+is+case+sencitive.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idil47:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,
+Forkify: In the minimized window when opening a recipe disappeared the header,QATC-814645,3492819,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 8:00 PM,16/Aug/23 11:07 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Open a recipe form bookmark or by searching
+ # Observed the window 
+
+*Actual Result: In* the minimized window when opening a recipe disappeared the header
+
+*Expected Result:* The header should be visible all the time","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 8:00 PM;m.foysal;Header is disappeared in the minimized window.mp4;https://jira.a1qa.com/secure/attachment/2396228/Header+is+disappeared+in+the+minimized+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiknz:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 11:07 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Previewing: Previewing a recipe in the maximized window and then minimizing the window it's displayed two scroll bar,QATC-814642,3492812,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 7:50 PM,15/Aug/23 7:50 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open any bookmarked recipe
+ # Minimized the window
+ # Observed the result:
+
+*Actual Result:* Previewing a recipe in the maximized window and then minimizing the window it's displayed two scroll bar
+
+*Expected Result:* In the Minimized window only one scroll bar should be displayed
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 7:49 PM;m.foysal;Two scroll bar is displayed.mp4;https://jira.a1qa.com/secure/attachment/2396219/Two+scroll+bar+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idikmf:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Search: Some empty space is displayed when minimizing the window with the search result,QATC-814637,3492797,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 7:34 PM,21/Aug/23 12:30 PM,17/Nov/23 9:52 PM,21/Aug/23 12:30 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Input a recipe name in the search field
+ # Click on search button
+ # Minimized the window
+
+*Actual Result:* Some empty space is displayed when minimizing the window with the search result
+
+*Expected Result:* Empty space should not be displayed when minimized the window","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 7:33 PM;m.foysal;empty space in search field.mp4;https://jira.a1qa.com/secure/attachment/2396205/empty+space+in+search+field.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idikj3:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 11:00 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: Searching is loading when the search button is clicked with an empty field,QATC-814632,3492787,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 7:12 PM,21/Aug/23 12:23 PM,17/Nov/23 9:52 PM,21/Aug/23 12:23 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Clicked on the search button with an empty field
+ # Observed the result
+
+*Actual result:* Searching is loading when the search button is clicked with an empty field
+
+*Expected Result:* The sear button should be disabled when the search field is empty or it's displayed please input a recipe name in the search field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idikgv:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"15/Aug/23 10:03 PM;m.foysal;*Expected Result:* The search button should be disabled when the search field is empty or it's displayed please input a recipe name in the search field;;;","16/Aug/23 10:59 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",
+Add Recipe: There is only one field for 'Prep Time' instead of three field,QATC-814629,3492779,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 7:04 PM,21/Aug/23 12:30 PM,17/Nov/23 9:52 PM,21/Aug/23 12:30 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Observed the Recipe Data text field 
+ # There is only one text field for minutes
+
+*Actual Result:* There is only one field for 'Prep Time' instead of three field
+
+*Expected Result:* There should be three fields for Hour, Minutes, and Second. Maximum of 10 Hours will be selected.
+
+*Additional Information:*
+ # Prep time minutes field accepts Negative values
+ # Prep time Accepts more than 600 minutes
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 7:04 PM;m.foysal;Prep time.mp4;https://jira.a1qa.com/secure/attachment/2396180/Prep+time.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idikfb:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 10:58 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Ingredients field Any two sections are empty if 'comma' is inputted,QATC-814558,3492573,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:42 PM,21/Aug/23 12:29 PM,17/Nov/23 9:52 PM,21/Aug/23 12:29 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe 
+ # Fill all the recipe data field
+ # Fill any two sections of the ingredients filed by 'Comma'
+ # Click on the upload button
+ # Observed the result
+
+*Actual Result:* Ingredients field Any two sections are empty if 'comma' is inputted
+
+*Expected Result:* Ingredients field 3 sections should be required when inputting the data","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 2:42 PM;m.foysal;Ingredients empty field.mp4;https://jira.a1qa.com/secure/attachment/2395993/Ingredients+empty+field.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idij7b:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 10:57 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Add recipe forms is displayed previously inputted data instead of an empty form,QATC-814555,3492560,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:24 PM,21/Aug/23 12:39 PM,17/Nov/23 9:52 PM,21/Aug/23 12:39 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe 
+ # Fill out the some filled
+ # Close the forms
+ # Reopen the Add Recipe
+ # Observed the Result
+
+*Actual Result:* Add recipe forms is displayed previously inputted data instead of an empty form
+
+*Expected Result:* Add recipe forms should be displayed an empty forms when opening it","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:24 PM;m.foysal;Formas displayed previously data.mp4;https://jira.a1qa.com/secure/attachment/2395983/Formas+displayed+previously+data.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idij4n:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 10:56 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Preview Recipe: Preview a recipe in the maximized window then minimized the window is displayed with a cross button,QATC-814554,3492550,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:14 PM,21/Aug/23 12:29 PM,17/Nov/23 9:52 PM,21/Aug/23 12:29 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Open any recipe by searching or from bookmark
+ # Minimized the window
+ # Observed the result
+
+*Actual Result:* Preview a recipe in the maximized window then minimized the window is displayed with a cross button
+
+*Expected Result:* The recipe should be displayed like maximized window with all information","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:14 PM;m.foysal;Preview window is displayed with cross button.mp4;https://jira.a1qa.com/secure/attachment/2395968/Preview+window+is+displayed+with+cross+button.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idij2f:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 10:55 PM;m.foysal;*Additional Information:* This issue is same in
+
+MacOS: Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe : Plus and minus buttons are not working when  a negative value is inputted in the servings,QATC-814553,3492545,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:03 PM,21/Aug/23 12:22 PM,17/Nov/23 9:52 PM,21/Aug/23 12:22 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill out all the required field except Servings
+ # Input a negative value into the servings field
+ # Click on the upload button
+ # Observed the preview recipe 
+ # Click on plus and minus buttons
+ # Observed the result
+
+*Actual Result:* Plus and minus buttons are not working when  a negative value is inputted in the servings.
+
+*Expected Result:* Plus and minus buttons should be worked when clicking on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:03 PM;m.foysal;Plus and minus buttons are not working.mp4;https://jira.a1qa.com/secure/attachment/2395966/Plus+and+minus+buttons+are+not+working.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idij1b:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Add Recipe: The recipe is by default selected to the bookmark when it's uploaded,QATC-814551,3492537,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 1:55 PM,21/Aug/23 12:28 PM,17/Nov/23 9:52 PM,21/Aug/23 12:28 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill out the all required filled
+ # Click on the upload button
+ # Click on the bookmark 
+ # Observed the result
+
+*Actual Result:* The recipe is by default selected to the bookmark when it's uploaded
+
+*Expected Result:* The recipe should not be selected by default to the bookmark when it's uploaded","{*}OS{*}: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 1:55 PM;m.foysal;by default select to the bookmark.mp4;https://jira.a1qa.com/secure/attachment/2395960/by+default+select+to+the+bookmark.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiizj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,
+Preview Recipe: Minutes spelling is changing when changing the servings number  ,QATC-814493,3492443,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 3:22 AM,21/Aug/23 12:21 PM,17/Nov/23 9:52 PM,21/Aug/23 12:21 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Search for any recipe or open a recipe from the bookmark
+ # Click on the Plus button on the Servings 
+ # Click on the Minus button on the Servings
+ # Observed the Minute's spelling
+
+*Actual Result:* Minutes spelling is changing when changing the servings number  
+
+*Expected Result:* Minutes spelling should be the same when changing the servings number
+
+*Additional Information:* When bookmarking and unbookmarked the recipe this issue happened","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 3:22 AM;m.foysal;Minutes is changing.mp4;https://jira.a1qa.com/secure/attachment/2395884/Minutes+is+changing.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiien:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 10:53 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: Minimize the window search result section and the recipe preview section is merged into one section,QATC-814490,3492440,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 3:11 AM,21/Aug/23 12:20 PM,17/Nov/23 9:52 PM,21/Aug/23 12:20 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Observed the result
+
+*Actual Result:* Minimize the window search result section and the recipe preview section is merged into one section
+
+*Expected Result:* Minimized the window there should be two sections one is for search results one is for preview the recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 3:10 AM;m.foysal;Mearged the window.mp4;https://jira.a1qa.com/secure/attachment/2395881/Mearged+the+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiidz:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"16/Aug/23 10:50 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Bookmark: A closed recipe in the minimized window is displayed when the window is maximized,QATC-814489,3492437,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 3:03 AM,21/Aug/23 12:44 PM,17/Nov/23 9:52 PM,21/Aug/23 12:44 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Open a recipe from the bookmark window
+ # Click on the close button
+ # Maximized the window
+ # Observed the Result
+
+*Actual Result:* A closed recipe in the minimized window is displayed when the window is maximized
+
+*Expected Result:* The closed recipe should not be displayed when the window is maximized","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) 
+
+ ",,,,,,,,Leads and Reporter only,"15/Aug/23 3:03 AM;m.foysal;closed recipe is displayed.mp4;https://jira.a1qa.com/secure/attachment/2395880/closed+recipe+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiidb:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"17/Aug/23 2:19 PM;m.foysal;*Additional Information:* This issue is the same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe:  It is not possible to add another recipe after validation message 'Wrong ingredient format!' message is displayed ,QATC-814488,3492431,Bug,To Be Reformulated,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 2:46 AM,22/Aug/23 7:17 PM,16/Oct/23 6:45 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" https://forkify.qa-academy.eu/""
+ # Click on Add recipe
+ # Fill out all the required field except ingredients
+ # Input the wrong format ingredients
+ # Click on upload
+ # Observed the result
+ # Then close the popup and click on Add recipe 
+ # Observed the result
+
+*Actual Result:* Add recipe menu is displayed as 'Wrong ingredient format!' when try uploading a recipe with an incorrect format ingredients
+
+*Expected Result:* Add Recipe menu always should open the forms when clicking on it","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:45 AM;m.foysal;wrong ingredients.mp4;https://jira.a1qa.com/secure/attachment/2395878/wrong+ingredients.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiibz:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 10:49 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;","22/Aug/23 7:17 PM;m.foysal;*Summary:*  It is not possible to add another recipe after uploading a recipe successfully;;;",
+Add Recipe: After adding a recipe and then trying to add another recipe it's displayed 'recipe was successfully uploaded' when clicking on the 'Add Recipe' menu,QATC-814485,3492425,Bug,To Be Reformulated,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 2:30 AM,22/Aug/23 4:50 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill out the required filled
+ # Click on the upload button 
+ # Then click on Add a Recipe button
+ # Observed the result
+
+*Actual Result:* After adding a recipe and then trying to add another recipe it's displayed 'recipe was successfully uploaded' when clicking on the 'Add Recipe' menu. Please see [^Added another recipe is not possible.mp4 ].
+
+*Expected Result:* Adding another recipe should be possible when clicking on add recipe menu","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:30 AM;m.foysal;Added another recipe is not possible.mp4;https://jira.a1qa.com/secure/attachment/2395872/Added+another+recipe+is+not+possible.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idiian:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 10:48 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Search: In the minimized window search result is displayed in the main window,QATC-814483,3492414,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:17 AM,21/Aug/23 12:17 PM,17/Nov/23 9:52 PM,21/Aug/23 12:17 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on the search field
+ # Input an uploaded recipe name
+ # Click on search button
+ # Observed the result
+
+*Actual Result:* In the minimized window search result is displayed in the main window
+
+*Expected Result:* In the minimized window search result should be displayed on the left side of the page there should area for previewing the  recipe","{*}OS{*}: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:16 AM;m.foysal;Search result is displayed inthe whole window.mp4;https://jira.a1qa.com/secure/attachment/2395870/Search+result+is+displayed+inthe+whole+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idii87:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 10:45 PM;m.foysal;*Additional information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Bookmark: In the minimized window open a bookmarked recipe and close it when try to reopen this recipe it’s not displayed,QATC-814482,3492413,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 2:07 AM,21/Aug/23 12:15 PM,17/Nov/23 9:52 PM,21/Aug/23 12:15 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Click on  a bookmark recipe
+ # Click on the close button
+ # Then try to reopen this recipe 
+ # Observed the result
+
+*Actual Result:* In the minimized window open a bookmarked recipe and close it when try to reopen this recipe it’s not displayed
+
+*Expected Result:* In the minimized window reopen the recipe it should be displayed ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 2:07 AM;m.foysal;Bookmark reicpe is not displayed in minimized window.mp4;https://jira.a1qa.com/secure/attachment/2395869/Bookmark+reicpe+is+not+displayed+in+minimized+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii7z:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,
+Bookmark: The bookmark option is displayed only 12  instead of 25 recipes when the window size is maximized,QATC-814479,3492403,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 1:53 AM,21/Aug/23 12:15 PM,17/Nov/23 9:52 PM,21/Aug/23 12:15 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on the Bookmark
+ # Observed the bookmark window
+ # Only 12 is displayed
+
+Actual Result: The bookmark option is displayed only 12  instead of 25 recipes when the window size is maximized
+
+*Expected Result:* The bookmark option should be displayed  25 bookmark recipe
+
+*Additional Information:* When the window size is minimized only 8 bookmark recipe is displayed","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 1:53 AM;m.foysal;Bookmark is displayed only 12-1.mp4;https://jira.a1qa.com/secure/attachment/2395865/Bookmark+is+displayed+only+12-1.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii5r:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"17/Aug/23 1:05 AM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: In the minimized window adding a new recipe successfully it’s not previewing in the main window,QATC-814474,3492397,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 1:16 AM,16/Aug/23 9:10 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Minimized the window
+ # Click on Add recipe
+ # Fill all the required field with valid data
+ # Click on upload button
+ # Observed the result
+
+*Actual Result:*  In the minimized window adding a new recipe successfully it’s not previewing in the main window
+
+*Expected Result:* In the minimized window the recipe adding a new recipe should be previewed in the main window
+
+*Additional Information:*
+ # This issue is also happened when a recipe is uploaded in the maximized window and then minimized window the recipe is not displayed in the minimized window
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 1:08 AM;m.foysal;created recipe not previewing in the main window.mp4;https://jira.a1qa.com/secure/attachment/2395859/created+recipe+not+previewing+in+the+main+window.mp4","16/Aug/23 9:10 PM;m.foysal;minimized window recipe is not displayed.mp4;https://jira.a1qa.com/secure/attachment/2396812/minimized+window+recipe+is+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii4f:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 9:10 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+[^minimized window recipe is not displayed.mp4] Safari, Version 16.5;;;",,
+Bookmark: Previewing: There is no 'Delete button' to remove the recipe from the application,QATC-814473,3492396,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 1:01 AM,21/Aug/23 12:10 PM,17/Nov/23 9:52 PM,21/Aug/23 12:10 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Bookmark
+ # Click on any recipe
+ # Observed the displayed recipe
+ # There is no delete button
+
+*Actual Result:* There is no 'Delete button to remove the recipe from the application
+
+*Expected Result:* There should be a delete button for removing the recipe from the applications
+
+ 
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 9:05 PM;m.foysal;edit and delete.jpg;https://jira.a1qa.com/secure/attachment/2396807/edit+and+delete.jpg","16/Aug/23 9:04 PM;m.foysal;No delete options.jpg;https://jira.a1qa.com/secure/attachment/2396806/No+delete+options.jpg","15/Aug/23 1:01 AM;m.foysal;There in no delete button to remove ther recipe.mp4;https://jira.a1qa.com/secure/attachment/2395858/There+in+no+delete+button+to+remove+ther+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii47:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 9:04 PM;m.foysal;*Additional Information:* This issue is same in 
+
+*MacOS:* Ventura
+!No delete options.jpg! Safari, Version 16.5;;;","16/Aug/23 9:05 PM;m.foysal;!edit and delete.jpg!;;;",
+Bookmark: Previewing: There are no edit options for editing the 'Time' when previewing the recipe,QATC-814471,3492393,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 12:50 AM,21/Aug/23 12:10 PM,17/Nov/23 9:52 PM,21/Aug/23 12:10 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Bookmark
+ # Click on any Bookmark recipe
+ # Observed the window there are not options for editing the time
+
+*Actual Result:* There are no edit options for editing the 'Time' when previewing the recipe
+
+*Expected Result:* There should be an edit option for all the entered data
+
+*Additional Information:*
+ # There are no editing options for Recipe ingredients
+ # There are no editing options for the Publisher name
+ # There are no editing options for the title
+ # There are no options for changing the recipe image URL
+ # There are no editing options for changing the direction URL","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 9:06 PM;m.foysal;edit and delete.jpg;https://jira.a1qa.com/secure/attachment/2396808/edit+and+delete.jpg","16/Aug/23 9:02 PM;m.foysal;No edit options.jpg;https://jira.a1qa.com/secure/attachment/2396805/No+edit+options.jpg","15/Aug/23 12:50 AM;m.foysal;No edit options.mp4;https://jira.a1qa.com/secure/attachment/2395856/No+edit+options.mp4",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii3r:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 9:02 PM;m.foysal;*Additional Information:* This issue is same in 
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5 !No edit options.jpg!;;;","16/Aug/23 9:06 PM;m.foysal;!edit and delete.jpg!;;;",
+Add recipe: Recipe Data: Title field data overlaps on the recipe image and recipe information when 100 letters are inputted,QATC-814467,3492388,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 12:35 AM,16/Aug/23 8:50 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click o the Add recipe
+ # Fill the title field with 100 letters
+ # fill rest of the required field
+ # Observed the result
+
+*Actual Result:* Title field data overlaps on the recipe image and recipe information when 100 letters are inputted
+
+*Expected Result:* The title field data should not overlap the recipe image and the recipe information 
+
+*Additional Information:*
+ # When more than 100 letters are input it overlaps the whole image also the recipe information","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"15/Aug/23 12:35 AM;m.foysal;More than 100.jpg;https://jira.a1qa.com/secure/attachment/2395852/More+than+100.jpg","15/Aug/23 12:35 AM;m.foysal;More than 100.png;https://jira.a1qa.com/secure/attachment/2395851/More+than+100.png","16/Aug/23 8:50 PM;m.foysal;title field is accept more than 100 words.jpg;https://jira.a1qa.com/secure/attachment/2396803/title+field+is+accept+more+than+100+words.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idii2n:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 8:50 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+!title field is accept more than 100 words.jpg! Safari, Version 16.5;;;",,
+Add recipe: Ingredients: The ingredients field 'Unit' section is accept special characters instead of only positive number,QATC-814466,3492386,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,15/Aug/23 12:24 AM,16/Aug/23 8:48 PM,17/Nov/23 9:52 PM,,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill the Recipe data  all field
+ # Put any Special character on the unit section
+ # Click on upload button
+ # Observed the result
+
+*Actual Result:* The ingredients field 'Unit' section is accept special characters instead of only positive number
+
+*Expected Result:* The unit field only accepts a positive or fractional value
+
+*Additional Information:*
+ # Unit field also accept letters
+ # when a special character or letter is inputted it'd display empty in the unit field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 12:24 AM;m.foysal;Unit field is accept different character.mp4;https://jira.a1qa.com/secure/attachment/2395850/Unit+field+is+accept+different+character.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii27:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"15/Aug/23 12:25 AM;m.foysal;*Additional Information:* The unit field also accepts negative numbers.;;;","16/Aug/23 8:48 PM;m.foysal;*Additional information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",
+Add Recipe: Ingredients: There is no Add more button to Add more ingredients option when uploading a recipe,QATC-814463,3492380,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 12:10 AM,21/Aug/23 12:10 PM,17/Nov/23 9:52 PM,21/Aug/23 12:10 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Observed the add recipe forms
+ # There is no Add more recipe button
+
+*Actual Result:* There is no Add more button to Add more ingredients option when uploading a recipe
+
+*Expected Result:* There should be a Add more button for adding more ingredients to the recipe ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 12:09 AM;m.foysal;add more button requirements.jpg;https://jira.a1qa.com/secure/attachment/2395847/add+more+button+requirements.jpg","16/Aug/23 8:43 PM;m.foysal;No Add more button.jpg;https://jira.a1qa.com/secure/attachment/2396799/No+Add+more+button.jpg","15/Aug/23 12:09 AM;m.foysal;There is no add more button.jpg;https://jira.a1qa.com/secure/attachment/2395846/There+is+no+add+more+button.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii0v:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 8:43 PM;m.foysal;*Additional Information:* This issue is same in 
+
+*MacOS:* Ventura
+{*}Browser: Safari{*}, Version 16.5 !No Add more button.jpg!;;;",,
+Add Recipe: Ingredients: Only one ingredients field is required instead of 3 field,QATC-814462,3492379,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,15/Aug/23 12:01 AM,21/Aug/23 12:09 PM,17/Nov/23 9:52 PM,21/Aug/23 12:09 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" https://forkify.qa-academy.eu/""
+ # Click on Add recipe
+ # Fill the recipe data all filed
+ # Fill the number 1 ingredients field
+ # Click on the upload button
+ # Observed the result
+
+*Actual Result:* Only one ingredients field is required instead of 3 field
+
+*Expected Result:* First three fields should be required when uploading a recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"15/Aug/23 12:01 AM;m.foysal;only one ingredients fields is required.mp4;https://jira.a1qa.com/secure/attachment/2395845/only+one+ingredients+fields+is+required.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii0n:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 8:35 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5
+
+ ;;;",,
+Add Recipe: Recipe Data: Servings field accepts more than 10 numbers when clicking on the up and down arrow,QATC-814460,3492377,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 11:50 PM,21/Aug/23 12:08 PM,17/Nov/23 9:52 PM,21/Aug/23 12:08 PM,1.0,Forkify,,0,"Steps to reproduce:
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on add recipe
+ # Fill out all the required filled except Servings
+ # Click on the servings up arrow until reached 10+ numbers
+ # Observed the result
+
+*Actual Result:* Servings field accepts more than 10 numbers when clicking on the up and down arrow
+
+*Expected Result:* The servings field accepts only 1 to 10 numbers. The up arrow should be disabled when it reaches 10 and the Down arrow should be disabled when it reaches 1.
+
+*Additional Information:*
+ # Serving accepts less than 1 when uploading the recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Aug/23 11:50 PM;m.foysal;Serving accept more than 10 value.mp4;https://jira.a1qa.com/secure/attachment/2395843/Serving+accept+more+than+10+value.mp4","16/Aug/23 8:28 PM;m.foysal;Serving field is accept more than 10.jpg;https://jira.a1qa.com/secure/attachment/2396793/Serving+field+is+accept+more+than+10.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idii07:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 8:29 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura !Serving field is accept more than 10.jpg!
+*Browser:* Safari, Version 16.5;;;","16/Aug/23 8:57 PM;m.foysal;*Additional Information:* The Mac OS servings accept more than 10 numbers but it does not accept less than 1 value.;;;",
+Add Recipe: Recipe Data: The publisher field is accepted more than 100 letters instead of 100,QATC-814446,3492338,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 10:48 PM,21/Aug/23 12:05 PM,17/Nov/23 9:52 PM,21/Aug/23 12:05 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Fill all the required fields except the Publisher field
+ # Enter a name of more than 100 letters
+ # Click on upload button
+ # Observed the result
+
+*Actual Result:* The publisher field is accepted more than 100 letters instead of 100
+
+*Expected Result:* The publisher field accepts only 2 to 100 English letters
+
+*Additional Information:*
+ # Publisher field accepts less than 2 letters when uploading the recipe
+ # Publisher field accept Special character when uploading the recipe
+ # Publisher field accepts only the Number when uploading the recipe
+ # Publisher field accepts different languages when uploading the recipe","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit)",,,,,,,,Leads and Reporter only,"14/Aug/23 10:48 PM;m.foysal;Publisher field is accept more than 100 letters.mp4;https://jira.a1qa.com/secure/attachment/2395812/Publisher+field+is+accept+more+than+100+letters.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idihrj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 8:22 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Recipe Data: Invalid Image URL is accepted when uploading a recipe,QATC-814444,3492333,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 10:32 PM,21/Aug/23 12:05 PM,17/Nov/23 9:52 PM,21/Aug/23 12:05 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Fill out the required fill except the Image URL
+ # Enter an invalid URL On the image field 
+ # Click on the upload button 
+ # Observed the result
+
+*Actual Result:* Invalid Image URL is accepted when uploading a recipe
+
+*Expected Result:* Only a valid URL should be accepted in the Image URL field","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Aug/23 10:32 PM;m.foysal;Invalid url is accept in the Image  url field.mp4;https://jira.a1qa.com/secure/attachment/2395807/Invalid+url+is+accept+in+the+Image++url+field.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idihqf:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"16/Aug/23 8:21 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Recipe Data: Image URL accepts more than 100 characters when entering,QATC-814443,3492331,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 10:20 PM,21/Aug/23 12:05 PM,17/Nov/23 9:52 PM,21/Aug/23 12:05 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Enter a URL of more than 100 character
+ # Fill out the required filled 
+ # Click on the upload button
+ # Observed the result
+
+Actual Result: Image URL accepts more than 100 characters when entering
+
+*Expected Result:* Image URL only accepts 2 to 100 character
+
+*Additional Result:*
+ # Less than 2 characters are accepted when uploading
+ # Special characters are accepted when uploading
+ # Numbers are accepted when uploading
+ # Negative values are also accepted uploading","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Aug/23 10:20 PM;m.foysal;Image URL is accept more than 100 character.mp4;https://jira.a1qa.com/secure/attachment/2395806/Image+URL+is+accept+more+than+100+character.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idihpz:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"16/Aug/23 8:20 PM;m.foysal;*Additional Information:*  This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",,
+Add Recipe: Recipe Data: Invalid URL is accepted when uploading a recipe,QATC-814427,3492243,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 7:53 PM,21/Aug/23 12:04 PM,17/Nov/23 9:52 PM,21/Aug/23 12:04 PM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe
+ # Filled the required field except URL
+ # Fill in the URL field with an invalid link
+ # Click on the upload button
+ # Observed the result
+
+*Actual Result:* Invalid URL is accepted when uploading a recipe
+
+*Expected Result:* Only valid URLs should be accepted when uploading a recipe","{*}Environment{*}: OS: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 8:18 PM;m.foysal;invalid link accept.mp4;https://jira.a1qa.com/secure/attachment/2396791/invalid+link+accept.mp4","14/Aug/23 7:52 PM;m.foysal;Invalid url is accept when uploding a recipe.mp4;https://jira.a1qa.com/secure/attachment/2395745/Invalid+url+is+accept+when+uploding+a+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idih6n:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"14/Aug/23 10:21 PM;m.foysal;*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ;;;","16/Aug/23 8:18 PM;m.foysal;*Additional Information:* This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;","16/Aug/23 8:18 PM;m.foysal;[^invalid link accept.mp4];;;"
+Add Recipe: Recipe Data: The URL field accepts more than 100 characters when an URL is entered,QATC-814423,3492234,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 7:43 PM,21/Aug/23 11:57 AM,17/Nov/23 9:52 PM,21/Aug/23 11:57 AM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe 
+ # Filled the URL field with more than 100 characters
+ # Fill rest of the required filled
+ # Click on the Upload button
+ # Observed the result
+
+*Actual Result:* The URL field accepts more than 100 characters when an URL is entered
+
+*Expected Result:* The URL field only can accept 2 to 100 character
+
+*Additional Information:*
+ # URL field is accepted when less than 2 characters are Entered
+ # URL field is accepted when only  Special Characters are Entered
+ # The URL field is accepted when only Numbers are entered
+ # URL field is accepted when only letters are entered
+
+ ","*Environment:* OS: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 8:02 PM;m.foysal;image-2023-08-16-20-02-36-744.png;https://jira.a1qa.com/secure/attachment/2396785/image-2023-08-16-20-02-36-744.png","14/Aug/23 7:41 PM;m.foysal;URL are accept more than 100 character.mp4;https://jira.a1qa.com/secure/attachment/2395741/URL+are+accept+more+than+100+character.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idih4n:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"14/Aug/23 10:21 PM;m.foysal;*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ;;;","16/Aug/23 8:07 PM;m.foysal;*Additional Information:*  This issue is same in
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5;;;",
+Add Recipe: Recipe Data: The title field accepts more than 100 letters when entering,QATC-814411,3492186,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 6:27 PM,21/Aug/23 11:57 AM,17/Nov/23 9:52 PM,21/Aug/23 11:57 AM,1.0,Forkify,,0,"*Steps to reproduce:*
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add recipe 
+ # Then enter more than 100 letters in the Title field
+ # Fill out the all required filled
+ # Then click on the upload button
+ # Observed the result
+ # it accepts more than 100 letters
+
+*Actual Result:* The title field accepts more than 100 letters when entering
+
+*Expected Result:* The title field should be accepted only 100 English letters
+
+*Additional Information:*
+ # Different languages are accepted in the  title fields
+ # Special Characters are accepted in the title fields
+ # Numbers are accepted in the title fields
+ # Negative values are accepted in the title fields
+ # Less than 2 letters are also accepted in the title fields","*Environment:* OS: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Aug/23 6:26 PM;m.foysal;more than 100 character can be inputed.mp4;https://jira.a1qa.com/secure/attachment/2395698/more+than+100+character+can+be+inputed.mp4","16/Aug/23 8:01 PM;m.foysal;title field is accept more than 100 words.jpg;https://jira.a1qa.com/secure/attachment/2396782/title+field+is+accept+more+than+100+words.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idigu7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"14/Aug/23 10:21 PM;m.foysal;*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ;;;","16/Aug/23 8:01 PM;m.foysal;*Additional Information:* This issue is same as 
+
+*MacOS:* Ventura
+*Browser:* Safari, Version 16.5 !title field is accept more than 100 words.jpg!;;;",
+Forkify: There is no list to display all the created recipe ,QATC-814406,3492166,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,14/Aug/23 5:58 PM,21/Aug/23 11:56 AM,17/Nov/23 9:52 PM,21/Aug/23 11:56 AM,1.0,Forkify,,0,"*Steps to reproduce:* 
+ # Go to "" [https://forkify.qa-academy.eu/] ""
+ # Click on Add Recipe
+ # Filled all recipe data and ingredients filled with valid data
+ # Click on the Upload Button
+ # Observed the window there are no options to see the all uploaded recipe
+
+*Actual Result:* There is no list to display all the created recipe 
+
+*Expected Result:* There should be an option where all the uploaded recipes are displayed in a list view","*Environment:* OS: Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"16/Aug/23 7:56 PM;m.foysal;no all view recipe.jpg;https://jira.a1qa.com/secure/attachment/2396780/no+all+view+recipe.jpg","14/Aug/23 5:58 PM;m.foysal;There is no options for all recipe.mp4;https://jira.a1qa.com/secure/attachment/2395673/There+is+no+options+for+all+recipe.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idigqf:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,"14/Aug/23 10:22 PM;m.foysal;*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ;;;","16/Aug/23 7:56 PM;m.foysal;*Additional Information:* This issue is the same as
+
+ *MacOS:* Ventura
+*Browser:* Safari, Version 16.5 !no all view recipe.jpg!;;;",
